@@ -26,7 +26,7 @@ The circuit consists of four nearly identical attenuverter cores in the followin
 
 Each attenuverter core can be switched between attenuator (Gain ranging from 0 to 1) and attenuverter (Gain ranging from -1 to 1) modes. Each input is normalized to +5V or +10V, see the section about input normalization below. If no cable is plugged in the output of its respective channel, the output signal is automatically mixed to the next channel, see the section about output normalization below.
 
-# [Click here for a detailed analysis of the circuit!](./documentation/docu.pdf)
+# [Click here for a detailed analysis of the circuit!](./docu/docu.pdf)
 
 <!-- ## Attenuverter Core Circuit
 
