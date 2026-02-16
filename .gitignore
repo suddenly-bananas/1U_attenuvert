@@ -1,0 +1,8 @@
+**/*.b#*
+**/*.s#*
+**/eagle.epf
+./docu/*.aux
+./docu/*.log
+./docu/*.out
+./docu/*.toc
+./docu/*.synctex.gz
