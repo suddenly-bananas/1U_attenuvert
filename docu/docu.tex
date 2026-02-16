@@ -108,21 +108,23 @@ If the switch connects to ground as in the picture, the situation is exactly as 
 
 Now assume the switch is in the other position, i.e. one side of the potentiometer is connected to the negative terminal of the second opamp. Since both sides of the potentiometer are connected to input terminals of opamps, they both sit at "virtual ground" aka 0V. Let's analyze some concrete potentiometer positions:
 
-- Pot fully turned clockwise:
-\begin{figure}[H]
-	\includegraphics[width=\columnwidth]{../drawings/attenuverter1.PNG}
-\end{figure}
-Both ends of the potentiometer sit at 0V, no current flows through the pot, so the first opamp outputs $-U_{in}$ and the second one inverts it again, arriving at $U_{out} = U_{in}.$
-- Pot in middle position:
-\begin{figure}[H]
-	\includegraphics[width=\columnwidth]{../drawings/attenuverter2.PNG}
-\end{figure}
-As before, the pot divides the current, so roughly half of the input current flow through either side of the pot. The first opamp then outputs roughly $\approx -0.5\cdot U_{in}$. This again forces a negative to current through the 100k-resistor connecting the first opamp to the second one, which then cancels with the current coming from the lower part of the pot. Total output: 0V 
-- Pot fully turned counterclockwise:
-\begin{figure}[H]
-	\includegraphics[width=\columnwidth]{../drawings/attenuverter3.PNG}
-\end{figure}
-Again both ends of the potentiometer sit at 0V, so all input current has to flow to the second opamp, which inverts the signal, so we arrive at $U_{out}=-U_{in}.$
+\begin{itemize}
+	\item Pot fully turned clockwise:
+	\begin{figure}[H]
+		\includegraphics[width=\columnwidth]{../drawings/attenuverter1.PNG}
+	\end{figure}
+	Both ends of the potentiometer sit at 0V, no current flows through the pot, so the first opamp outputs $-U_{in}$ and the second one inverts it again, arriving at $U_{out} = U_{in}.$
+	\item Pot in middle position:
+	\begin{figure}[H]
+		\includegraphics[width=\columnwidth]{../drawings/attenuverter2.PNG}
+	\end{figure}
+	As before, the pot divides the current, so roughly half of the input current flow through either side of the pot. The first opamp then outputs roughly $\approx -0.5\cdot U_{in}$. This again forces a negative to current through the 100k-resistor connecting the first opamp to the second one, which then cancels with the current coming from the lower part of the pot. Total output: 0V 
+	\item Pot fully turned counterclockwise:
+	\begin{figure}[H]
+		\includegraphics[width=\columnwidth]{../drawings/attenuverter3.PNG}
+	\end{figure}
+	Again both ends of the potentiometer sit at 0V, so all input current has to flow to the second opamp, which inverts the signal, so we arrive at $U_{out}=-U_{in}.$
+\end{itemize}
 
 For potentiometer positions in between, we interpolate the total gain of the circuit from -1 to 1, somewhat linearly by the choice of 10k for the pot which is small enough relative to the other resistors. In other words: Attenuvertion achieved!
 
@@ -182,7 +184,7 @@ To overcome this problem we changed the feedback resistor of the first opamp sta
 	\includegraphics[width=\columnwidth]{../drawings/normalization_mixing3.PNG}
 \end{figure}
 
-Note that this is of course not necessary for the first channel, as there is normalization mixing in this case. In practice, this approach has the downside that inherent offset voltages as well as noise from the first opamp get amplified by a factor of 2 by the second opamp. But it has to be seen if this is even noticable in practice.
+Note that this is of course not necessary for the first channel, as there is no normalization mixing in this case. In practice, this approach has the downside that inherent offset voltages as well as noise from the first opamp get amplified by a factor of 2 by the second opamp. But it has to be seen if this is even noticable in practice.
 
 \end{document}
 

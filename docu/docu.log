@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.28)  16 FEB 2026 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.28)  16 FEB 2026 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,109 +796,109 @@ nuverter_core.PNG>]
 <../drawings/attenuverter1.PNG, id=49, 1226.33156pt x 417.05812pt>
 File: ../drawings/attenuverter1.PNG Graphic file (type png)
 <use ../drawings/attenuverter1.PNG>
-Package pdftex.def Info: ../drawings/attenuverter1.PNG  used on input line 113.
+Package pdftex.def Info: ../drawings/attenuverter1.PNG  used on input line 114.
 
 (pdftex.def)             Requested size: 245.40503pt x 83.45468pt.
 <../drawings/attenuverter2.PNG, id=50, 1221.06187pt x 409.53pt>
 File: ../drawings/attenuverter2.PNG Graphic file (type png)
 <use ../drawings/attenuverter2.PNG>
-Package pdftex.def Info: ../drawings/attenuverter2.PNG  used on input line 118.
+Package pdftex.def Info: ../drawings/attenuverter2.PNG  used on input line 119.
 
 (pdftex.def)             Requested size: 245.40503pt x 82.30447pt.
 <../drawings/attenuverter3.PNG, id=51, 1227.08438pt x 424.58624pt>
 File: ../drawings/attenuverter3.PNG Graphic file (type png)
 <use ../drawings/attenuverter3.PNG>
-Package pdftex.def Info: ../drawings/attenuverter3.PNG  used on input line 123.
+Package pdftex.def Info: ../drawings/attenuverter3.PNG  used on input line 124.
 
 (pdftex.def)             Requested size: 245.40503pt x 84.90926pt.
 <../drawings/led1.PNG, id=52, 715.92468pt x 475.7775pt>
 File: ../drawings/led1.PNG Graphic file (type png)
 <use ../drawings/led1.PNG>
-Package pdftex.def Info: ../drawings/led1.PNG  used on input line 134.
+Package pdftex.def Info: ../drawings/led1.PNG  used on input line 136.
 (pdftex.def)             Requested size: 245.40503pt x 163.08348pt.
 <../drawings/led2.PNG, id=53, 632.3625pt x 426.84468pt>
 File: ../drawings/led2.PNG Graphic file (type png)
 <use ../drawings/led2.PNG>
-Package pdftex.def Info: ../drawings/led2.PNG  used on input line 140.
+Package pdftex.def Info: ../drawings/led2.PNG  used on input line 142.
 (pdftex.def)             Requested size: 245.40503pt x 165.6481pt.
-<../drawings/led3.PNG, id=54, 906.38625pt x 487.8225pt>
-File: ../drawings/led3.PNG Graphic file (type png)
-<use ../drawings/led3.PNG>
-Package pdftex.def Info: ../drawings/led3.PNG  used on input line 148.
-(pdftex.def)             Requested size: 245.40503pt x 132.07857pt.
  [3 <../drawings/attenuverter1.PNG> <../drawings/attenuverter2.PNG> <../drawing
 s/attenuverter3.PNG> <../drawings/led1.PNG> <../drawings/led2.PNG>]
-Underfull \hbox (badness 1616) in paragraph at lines 153--154
+<../drawings/led3.PNG, id=65, 906.38625pt x 487.8225pt>
+File: ../drawings/led3.PNG Graphic file (type png)
+<use ../drawings/led3.PNG>
+Package pdftex.def Info: ../drawings/led3.PNG  used on input line 150.
+(pdftex.def)             Requested size: 245.40503pt x 132.07857pt.
+
+Underfull \hbox (badness 1616) in paragraph at lines 155--156
 []\OT1/cmr/m/n/10 One last note: When us-ing opamps in such a
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 153--154
+Underfull \hbox (badness 4416) in paragraph at lines 155--156
 \OT1/cmr/m/n/10 way that the ter-mi-nals do not sit at 0V, i.e.
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 153--154
+Underfull \hbox (badness 2837) in paragraph at lines 155--156
 \OT1/cmr/m/n/10 (vir-tual) ground, there is an ef-fect called [phase
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 \OT1/cmr/m/n/10 reversal](https://northcoastsynthesis.com/news/whats-
  []
 
-<../drawings/normalization_mixing.PNG, id=65, 914.66719pt x 366.61969pt>
+<../drawings/normalization_mixing.PNG, id=66, 914.66719pt x 366.61969pt>
 File: ../drawings/normalization_mixing.PNG Graphic file (type png)
 <use ../drawings/normalization_mixing.PNG>
 Package pdftex.def Info: ../drawings/normalization_mixing.PNG  used on input li
-ne 162.
+ne 164.
 (pdftex.def)             Requested size: 245.40503pt x 98.36209pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<../drawings/normalization_mixing2.PNG, id=66, 908.64468pt x 377.15906pt>
+<../drawings/normalization_mixing2.PNG, id=67, 908.64468pt x 377.15906pt>
 File: ../drawings/normalization_mixing2.PNG Graphic file (type png)
 <use ../drawings/normalization_mixing2.PNG>
 Package pdftex.def Info: ../drawings/normalization_mixing2.PNG  used on input l
-ine 172.
+ine 174.
 (pdftex.def)             Requested size: 245.40503pt x 101.85732pt.
- [4 <../drawings/led3.PNG> <../drawings/normalization_mixing.PNG> <../drawings/
-normalization_mixing2.PNG>]
-<../drawings/normalization_mixing3.PNG, id=74, 908.64468pt x 390.70969pt>
+[4 <../drawings/led3.PNG> <../drawings/normalization_mixing.PNG> <../drawings/n
+ormalization_mixing2.PNG>]
+<../drawings/normalization_mixing3.PNG, id=75, 908.64468pt x 390.70969pt>
 File: ../drawings/normalization_mixing3.PNG Graphic file (type png)
 <use ../drawings/normalization_mixing3.PNG>
 Package pdftex.def Info: ../drawings/normalization_mixing3.PNG  used on input l
-ine 182.
+ine 184.
 (pdftex.def)             Requested size: 245.40503pt x 105.51686pt.
  [5
 
- <../drawings/normalization_mixing3.PNG>] (docu.aux)
+ <../drawings/normalization_mixing3.PNG>]
+(docu.aux)
 Package rerunfilecheck Info: File `docu.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15157 strings out of 475385
- 273263 string characters out of 2776434
+ 15160 strings out of 475385
+ 273299 string characters out of 2776434
  777466 words of memory out of 3000000
- 36303 multiletter control sequences out of 15000+600000
- 473245 words of font info for 45 fonts, out of 8000000 for 9000
+ 36305 multiletter control sequences out of 15000+600000
+ 473580 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,106p,10684b,494s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx12.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Sandro/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sandro/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Sandro/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sand
-ro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
-:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb>
-Output written on docu.pdf (5 pages, 1344534 bytes).
+ <C:\Users\Sandro\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1000.pk><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Sandro/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Sandro/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sandro/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Sandr
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Use
+rs/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10
+.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Users/Sandro/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb>
+Output written on docu.pdf (5 pages, 1345240 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
