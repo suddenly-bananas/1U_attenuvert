@@ -1,4 +1,4 @@
-<!-- ![](./panel.png) -->
+![](./header.png)
 
 This module is an attempt to reproduce the functionality of the Intellijel Quadratt for private use (not for sale!), i.e. four independent attenuators/attenuverters, which can be mixed together through normalized mixing, although some modifications are included regarding output LEDs and jack input normalization. The schematics are fairly straightforward and consists mainly of usual inverting opamp mixing stages. Aside from having a new utility module at hand, the main goal of this project was to have a relatively simple module with which I can make my first experiences with SMD-components, SMD-assembly services and 4-layer-PCB-design.
 
@@ -24,7 +24,7 @@ schematics
 The circuit consists of four nearly identical attenuverter cores in the following configuration: 
 ![](./drawings/pictogram.png)
 
-Each attenuverter core can be switched between attenuator (Gain ranging from 0 to 1) and attenuverter (Gain ranging from -1 to 1) modes. Each input is normalized to +5V or +10V, see the section about input normalization below. If no cable is plugged in the output of its respective channel, the output signal is automatically mixed to the next channel, see the section about output normalization below.
+Each attenuverter core can be switched between attenuator (Gain ranging from 0 to 1) and attenuverter (Gain ranging from -1 to 1) modes. Each input is normalized to +5V or +10V, see the section about input normalization below. If no cable is plugged in the output of its respective channel, the output signal is automatically mixed to the next channel, see the section about output normalization in the documentation.
 
 # [Click here for a detailed analysis of the circuit!](./docu/docu.pdf)
 
